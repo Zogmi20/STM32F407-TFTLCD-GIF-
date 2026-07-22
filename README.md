@@ -16,27 +16,6 @@
 | 总数据大小 | 约307KB |
 | 帧率 | 10帧/秒 (100ms/帧) |
 
----
-
-## 📂 文件结构
-
-项目根目录/
-├── Drivers/ # 官方HAL库驱动
-├── Middlewares/ # 中间件
-├── Projects/ # Keil工程文件
-├── Output/ # 编译输出
-├── User/ # 用户代码 ⭐
-│ ├── main.c # 主程序
-│ ├── frames.h # 帧数据头文件
-│ ├── frames.c # 帧数据汇总
-│ ├── frame1.c # 第1帧数据
-│ ├── frame2.c # 第2帧数据
-│ ├── ... # ...
-│ └── frame28.c # 第28帧数据
-├── keilkill.bat # 清理编译中间文件
-└──  readme.txt # 原厂说明
-
-
 
 
 ## 🔧 使用方法
